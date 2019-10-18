@@ -31,7 +31,9 @@ print(name)
 var myName: String = "Mallikarjun Hanagandi"
 print(myName)
 
-myName = "Mallikarjun Hanagandi"
+myName = "Mallikarjun Hanagandi"  // Re-assigning the myName variable
+print(myName)
+
 //Ineger
 var age = 25
 print(age)
@@ -53,4 +55,8 @@ print(doorIsClosedExplicitly)
 
 //Constants
 
+let metroBusNUmber = "MF-1"
 
+// metroBusNUmber = "MF-12" //Error:  Cannot assign to value: 'metroBusNUmber' is a 'let' constant
+
+let employeedId = 1217
