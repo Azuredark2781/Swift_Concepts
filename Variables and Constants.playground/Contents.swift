@@ -60,3 +60,11 @@ let metroBusNUmber = "MF-1"
 // metroBusNUmber = "MF-12" //Error:  Cannot assign to value: 'metroBusNUmber' is a 'let' constant
 
 let employeedId = 1217
+
+
+//String Interpolation
+
+var sentence1 = "This ticket is generated from"
+var sentence2 = " ITBK/HO/PC-121 IT-Swoftware Team"
+
+print("\(sentence1)\(sentence2 )")
