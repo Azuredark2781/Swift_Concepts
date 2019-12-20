@@ -37,4 +37,15 @@ print(numMax)
     print("Minimum Number ====================\(small)")// 116 
 
 
+// Getitng smallest and largesr elenment - Using sort()
+
+var sampleArray = [88, 91, 16, 8, 55, 74, 45]
+ 
+sampleArray.sort()
+
+print("Smallest Number is: \(sampleArray[0])") //Smallest Number is: 8
+print("Smallest Number is: \(sampleArray.first)") //Smallest Number is: Optional(8)
+
+print("Largest Number is: \(sampleArray.last)") //Largest Number is: Optional(91)
+
  
