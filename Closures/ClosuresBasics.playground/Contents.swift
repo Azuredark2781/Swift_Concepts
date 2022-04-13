@@ -115,3 +115,4 @@ func functionPassingClosureWithCompletionhandler(numbers:[Int], completionHandle
 functionPassingClosureWithCompletionhandler(numbers: [1,23,9]) { additionOfNumberUsingClosure in
     print(additionOfNumberUsingClosure)
 }
+
